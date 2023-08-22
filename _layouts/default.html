@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% feed_meta %}
+    {% seo %}
+    {% if jekyll.environment == "production" %}
+      <script src="/assets/js/my-analytics-script.js"></script>
+    {% endif %}
+  </head>
+  <body>
+    {% include navigation.html %}
+    {{ content }}
+  </body>
+  <footer>
+    {% if jekyll.environment == "production" %}
+    <div>
+      <p>Running in production</p>
+    </div>
+    {% endif %}
+  </footer>
+</html>

@@ -1,0 +1,26 @@
+collections:
+  authors:
+    output: true
+
+# A way to apply the layout without using the front matter for every single page
+
+#defaults:
+#  - scope:
+#      path: ""
+#      type: "authors"
+#    values:
+#      layout: "author"
+#  - scope:
+#      path: ""
+#      type: "posts"
+#    values:
+#      layout: "post"
+#  - scope:
+#      path: ""
+#    values:
+#      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
