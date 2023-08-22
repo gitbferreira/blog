@@ -1,0 +1,11 @@
+.idea
+.DS_Store
+__pycache__
+*.log
+_site
+venv
+python/fastapi/temp
+.jekyll-cache
+.sass-cache
+.jekyll-metadata
+vendor
